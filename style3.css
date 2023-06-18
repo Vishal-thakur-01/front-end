@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+}
+nav{
+    background-color: #333;
+    display: flex;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(247, 238, 238);
+    padding: 20px 20px;
+    position: sticky;
+    float: left;
+    z-index: 1;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: navy;
+}
+nav a:visited {
+    color: tomatos;
+}
+section{
+    text-align: center;
+    padding-top: 4px;
+    height: 100vh;
+}
+section:nth-child(even){
+    background-color: aliceblue;
+}
+iframe{
+    padding: 0px 5px;
+
+}
+img{
+    padding: 0px 20px;
+}
+section h2 span{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 20%;
+    color: #ddd;
+}
+h2{
+    padding-bottom: 40px;
+}
+section a {
+    text-decoration: none;
+    color: rgb(85, 9, 9);
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+  }
+  .profile{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px ;
+  }
+  footer{
+    overflow: hidden;
+    background-color: #333;
+  }
+  footer a{
+    display: block;
+    text-decoration: none;
+    color: rgb(247, 238, 238);
+    padding: 20px 20px;
+    float: left;
+  }
+  .copyright{
+    float: right;
+  }
+  .sm a{
+    background-color:rgb(125 125 125 50%);
+    
+
+  }
+  .banner{
+    background-image: url(SELFMADE1.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 45%;
+    background-attachment: fixed;
+  }
+
+  body { font-family: sans-serif; }
+  
+ 
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .carousel-cell video{
+    max-width: 100%;
+  }
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    position: relative;
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .c{
+    margin-left: auto;
+  }
+  @media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0px;
+        .c{
+            margin-left: 0;
+          }
+    }
+  }
